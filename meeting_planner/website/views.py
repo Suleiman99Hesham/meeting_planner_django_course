@@ -1,11 +1,13 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from datetime import datetime
+from meetings.models import Meeting
 # Create your views here.
 
 
 def welcome(request):
-    return HttpResponse("<html> <head>Meeting planner</head> <body><h1>Welcome to the meeting planner</h1> </body></html>")
+    return render(request,"website/welcome.html",
+                  {"meetings": Meeting.objects.all()})
 
 
 def date(request):
