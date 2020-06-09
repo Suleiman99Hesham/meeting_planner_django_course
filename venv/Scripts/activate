@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\Education\career path\python\pluralsight\django courses\Django- Getting Started\pracctices\meetin_planner_django_course\venv"
+VIRTUAL_ENV="D:\Education\career path\python\pluralsight\django courses\Django- Getting Started\pracctices\meeting_planner_django_course\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

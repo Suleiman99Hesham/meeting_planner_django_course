@@ -1,4 +1,4 @@
-#!D:\Education\career path\python\pluralsight\django courses\Django- Getting Started\pracctices\meetin_planner_django_course\venv\Scripts\python.exe
+#!D:\Education\career path\python\pluralsight\django courses\Django- Getting Started\pracctices\meeting_planner_django_course\venv\Scripts\python.exe
 from django.core import management
 
 if __name__ == "__main__":
